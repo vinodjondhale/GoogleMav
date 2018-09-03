@@ -1,32 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
     <line>
-      <![CDATA[Total no of links are:165]]>
-    </line>
-    <line>
-      <![CDATA[Title is matching]]>
-    </line>
-    <line>
-      <![CDATA[Total no of links are:48]]>
-    </line>
-    <line>
-      <![CDATA[Total no of links are:170]]>
-    </line>
-    <line>
-      <![CDATA[Title is matching]]>
-    </line>
-    <line>
-      <![CDATA[Title is matching]]>
-    </line>
-    <line>
-      <![CDATA[Total no of links are:161]]>
-    </line>
-    <line>
-      <![CDATA[Title is matching]]>
-    </line>
-    <line>
-      <![CDATA[Total no of links are:48]]>
+      <![CDATA[Total no of links are:169]]>
     </line>
     <line>
       <![CDATA[Title is matching]]>
@@ -38,66 +14,12 @@
       <![CDATA[Title is matching]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="184044" started-at="2018-09-02T11:25:51Z" finished-at="2018-09-02T11:28:55Z">
+  <suite name="Suite" duration-ms="76961" started-at="2018-09-02T13:12:40Z" finished-at="2018-09-02T13:13:57Z">
     <groups>
     </groups>
-    <test name="chromeTest" duration-ms="150735" started-at="2018-09-02T11:25:51Z" finished-at="2018-09-02T11:28:22Z">
-      <class name="testscripts.Test2">
-        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:testscripts.Test2@1686d1f]" name="before" is-config="true" duration-ms="16718" started-at="2018-09-02T11:27:14Z" finished-at="2018-09-02T11:27:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="test()[pri:0, instance:testscripts.Test2@1686d1f]" name="test" duration-ms="10529" started-at="2018-09-02T11:27:31Z" finished-at="2018-09-02T11:27:41Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Total no of links are:170]]>
-            </line>
-            <line>
-              <![CDATA[Title is matching]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testscripts.Test2@1686d1f]" name="close" is-config="true" duration-ms="489" started-at="2018-09-02T11:27:41Z" finished-at="2018-09-02T11:27:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- testscripts.Test2 -->
-      <class name="testscripts.Test3">
-        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:testscripts.Test3@1ee9989]" name="before" is-config="true" duration-ms="10485" started-at="2018-09-02T11:27:42Z" finished-at="2018-09-02T11:27:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="test()[pri:0, instance:testscripts.Test3@1ee9989]" name="test" duration-ms="26635" started-at="2018-09-02T11:27:52Z" finished-at="2018-09-02T11:28:19Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Total no of links are:161]]>
-            </line>
-            <line>
-              <![CDATA[Title is matching]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testscripts.Test3@1ee9989]" name="close" is-config="true" duration-ms="2640" started-at="2018-09-02T11:28:19Z" finished-at="2018-09-02T11:28:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- testscripts.Test3 -->
+    <test name="chromeTest" duration-ms="56612" started-at="2018-09-02T13:12:40Z" finished-at="2018-09-02T13:13:37Z">
       <class name="testscripts.Test1">
-        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:testscripts.Test1@f777e8]" name="before" is-config="true" duration-ms="25802" started-at="2018-09-02T11:25:51Z" finished-at="2018-09-02T11:26:17Z">
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:testscripts.Test1@dafa95]" name="before" is-config="true" duration-ms="15198" started-at="2018-09-02T13:12:41Z" finished-at="2018-09-02T13:12:56Z">
           <params>
             <param index="0">
               <value>
@@ -108,79 +30,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="test()[pri:0, instance:testscripts.Test1@f777e8]" name="test" duration-ms="54477" started-at="2018-09-02T11:26:17Z" finished-at="2018-09-02T11:27:11Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:testscripts.Test1@dafa95]" name="test" duration-ms="39758" started-at="2018-09-02T13:12:56Z" finished-at="2018-09-02T13:13:35Z">
           <reporter-output>
             <line>
-              <![CDATA[Total no of links are:165]]>
+              <![CDATA[Total no of links are:169]]>
             </line>
             <line>
               <![CDATA[Title is matching]]>
             </line>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testscripts.Test1@f777e8]" name="close" is-config="true" duration-ms="2789" started-at="2018-09-02T11:27:11Z" finished-at="2018-09-02T11:27:14Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:testscripts.Test1@dafa95]" name="close" is-config="true" duration-ms="1480" started-at="2018-09-02T13:13:35Z" finished-at="2018-09-02T13:13:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- testscripts.Test1 -->
     </test> <!-- chromeTest -->
-    <test name="firefoxTest" duration-ms="184044" started-at="2018-09-02T11:25:51Z" finished-at="2018-09-02T11:28:55Z">
-      <class name="testscripts.Test2">
-        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:testscripts.Test2@41eaa2]" name="before" is-config="true" duration-ms="31279" started-at="2018-09-02T11:27:48Z" finished-at="2018-09-02T11:28:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="test()[pri:0, instance:testscripts.Test2@41eaa2]" name="test" duration-ms="8282" started-at="2018-09-02T11:28:19Z" finished-at="2018-09-02T11:28:27Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Total no of links are:48]]>
-            </line>
-            <line>
-              <![CDATA[Title is matching]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testscripts.Test2@41eaa2]" name="close" is-config="true" duration-ms="3412" started-at="2018-09-02T11:28:27Z" finished-at="2018-09-02T11:28:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- testscripts.Test2 -->
-      <class name="testscripts.Test3">
-        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:testscripts.Test3@d62f43]" name="before" is-config="true" duration-ms="13508" started-at="2018-09-02T11:28:31Z" finished-at="2018-09-02T11:28:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="test()[pri:0, instance:testscripts.Test3@d62f43]" name="test" duration-ms="6898" started-at="2018-09-02T11:28:44Z" finished-at="2018-09-02T11:28:51Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Total no of links are:48]]>
-            </line>
-            <line>
-              <![CDATA[Title is matching]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testscripts.Test3@d62f43]" name="close" is-config="true" duration-ms="3974" started-at="2018-09-02T11:28:51Z" finished-at="2018-09-02T11:28:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- testscripts.Test3 -->
+    <test name="firefoxTest" duration-ms="76961" started-at="2018-09-02T13:12:40Z" finished-at="2018-09-02T13:13:57Z">
       <class name="testscripts.Test1">
-        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:testscripts.Test1@5cb137]" name="before" is-config="true" duration-ms="78875" started-at="2018-09-02T11:25:51Z" finished-at="2018-09-02T11:27:10Z">
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:testscripts.Test1@4ed9f0]" name="before" is-config="true" duration-ms="62665" started-at="2018-09-02T13:12:41Z" finished-at="2018-09-02T13:13:43Z">
           <params>
             <param index="0">
               <value>
@@ -191,7 +59,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="test()[pri:0, instance:testscripts.Test1@5cb137]" name="test" duration-ms="29905" started-at="2018-09-02T11:27:10Z" finished-at="2018-09-02T11:27:40Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:testscripts.Test1@4ed9f0]" name="test" duration-ms="10059" started-at="2018-09-02T13:13:43Z" finished-at="2018-09-02T13:13:53Z">
           <reporter-output>
             <line>
               <![CDATA[Total no of links are:48]]>
@@ -201,7 +69,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testscripts.Test1@5cb137]" name="close" is-config="true" duration-ms="7733" started-at="2018-09-02T11:27:40Z" finished-at="2018-09-02T11:27:48Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:testscripts.Test1@4ed9f0]" name="close" is-config="true" duration-ms="4067" started-at="2018-09-02T13:13:53Z" finished-at="2018-09-02T13:13:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->

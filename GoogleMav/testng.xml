@@ -14,7 +14,7 @@
     <parameter name="myBrowser" value="chrome"/>
     <classes>
       <class name="testscripts.Test1"/>
-      <class name="testscripts.Test2"/>
+       <class name="testscripts.Test2"/>
       <class name="testscripts.Test3"/>
     </classes>
 
