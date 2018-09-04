@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="tests" thread-count="6">
+   
     <test name="firefoxTest">
     <parameter name="myBrowser" value="firefox"/>
     <classes>
@@ -8,7 +9,7 @@
       <class name="testscripts.Test2"/>
       <class name="testscripts.Test3"/>
     </classes>
-    </test>
+    </test> <!-- Test -->
     
      <test name="chromeTest">
     <parameter name="myBrowser" value="chrome"/>
@@ -16,9 +17,8 @@
       <class name="testscripts.Test1"/>
        <class name="testscripts.Test2"/>
       <class name="testscripts.Test3"/>
-    </classes>
-
-
-	
+    </classes>	
   </test> <!-- Test -->
+  
+  
 </suite> <!-- Suite -->
