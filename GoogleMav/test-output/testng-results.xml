@@ -1,211 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
-    <line>
-      <![CDATA[Total no of links are:151]]>
-    </line>
-    <line>
-      <![CDATA[Total no of links are:50]]>
-    </line>
-    <line>
-      <![CDATA[Title is matching]]>
-    </line>
-    <line>
-      <![CDATA[Title is matching]]>
-    </line>
-    <line>
-      <![CDATA[Total no of links are:169]]>
-    </line>
-    <line>
-      <![CDATA[Title is matching]]>
-    </line>
-    <line>
-      <![CDATA[Total no of links are:50]]>
-    </line>
-    <line>
-      <![CDATA[Title is matching]]>
-    </line>
-    <line>
-      <![CDATA[Total no of links are:163]]>
-    </line>
-    <line>
-      <![CDATA[Title is matching]]>
-    </line>
-    <line>
-      <![CDATA[Total no of links are:50]]>
-    </line>
-    <line>
-      <![CDATA[Title is matching]]>
-    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="76707" started-at="2018-09-04T11:53:26Z" finished-at="2018-09-04T11:54:43Z">
+  <suite name="Default suite" duration-ms="187" started-at="2018-09-09T12:14:25Z" finished-at="2018-09-09T12:14:26Z">
     <groups>
     </groups>
-    <test name="chromeTest" duration-ms="65206" started-at="2018-09-04T11:53:26Z" finished-at="2018-09-04T11:54:31Z">
-      <class name="testscripts.Test2">
-        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:testscripts.Test2@1686d1f]" name="before" is-config="true" duration-ms="9084" started-at="2018-09-04T11:53:57Z" finished-at="2018-09-04T11:54:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="test()[pri:0, instance:testscripts.Test2@1686d1f]" name="test" duration-ms="5926" started-at="2018-09-04T11:54:06Z" finished-at="2018-09-04T11:54:12Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Total no of links are:169]]>
-            </line>
-            <line>
-              <![CDATA[Title is matching]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testscripts.Test2@1686d1f]" name="close" is-config="true" duration-ms="2106" started-at="2018-09-04T11:54:12Z" finished-at="2018-09-04T11:54:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- testscripts.Test2 -->
-      <class name="testscripts.Test3">
-        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:testscripts.Test3@1ee9989]" name="before" is-config="true" duration-ms="10516" started-at="2018-09-04T11:54:14Z" finished-at="2018-09-04T11:54:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="test()[pri:0, instance:testscripts.Test3@1ee9989]" name="test" duration-ms="3950" started-at="2018-09-04T11:54:25Z" finished-at="2018-09-04T11:54:29Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Total no of links are:163]]>
-            </line>
-            <line>
-              <![CDATA[Title is matching]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testscripts.Test3@1ee9989]" name="close" is-config="true" duration-ms="2342" started-at="2018-09-04T11:54:29Z" finished-at="2018-09-04T11:54:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- testscripts.Test3 -->
+    <test name="Default test" duration-ms="187" started-at="2018-09-09T12:14:25Z" finished-at="2018-09-09T12:14:26Z">
       <class name="testscripts.Test1">
-        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:testscripts.Test1@f777e8]" name="before" is-config="true" duration-ms="13097" started-at="2018-09-04T11:53:26Z" finished-at="2018-09-04T11:53:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="FAIL" signature="before(java.lang.String)[pri:0, instance:testscripts.Test1@3bd550]" name="before" is-config="true" duration-ms="0" started-at="2018-09-09T12:14:26Z" finished-at="2018-09-09T12:14:26Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'myBrowser' is required by BeforeMethod on method before but has not been marked @Optional or defined
+in C:\Users\Vinod J\AppData\Local\Temp\testng-eclipse-360846467\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'myBrowser' is required by BeforeMethod on method before but has not been marked @Optional or defined
+in C:\Users\Vinod J\AppData\Local\Temp\testng-eclipse-360846467\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="test()[pri:0, instance:testscripts.Test1@f777e8]" name="test" duration-ms="15775" started-at="2018-09-04T11:53:39Z" finished-at="2018-09-04T11:53:55Z">
+        <test-method status="SKIP" signature="test()[pri:0, instance:testscripts.Test1@3bd550]" name="test" duration-ms="0" started-at="2018-09-09T12:14:26Z" finished-at="2018-09-09T12:14:26Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'myBrowser' is required by BeforeMethod on method before but has not been marked @Optional or defined
+in C:\Users\Vinod J\AppData\Local\Temp\testng-eclipse-360846467\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'myBrowser' is required by BeforeMethod on method before but has not been marked @Optional or defined
+in C:\Users\Vinod J\AppData\Local\Temp\testng-eclipse-360846467\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
-            <line>
-              <![CDATA[Total no of links are:151]]>
-            </line>
-            <line>
-              <![CDATA[Title is matching]]>
-            </line>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testscripts.Test1@f777e8]" name="close" is-config="true" duration-ms="2352" started-at="2018-09-04T11:53:55Z" finished-at="2018-09-04T11:53:57Z">
+        <test-method status="SKIP" signature="close()[pri:0, instance:testscripts.Test1@3bd550]" name="close" is-config="true" duration-ms="0" started-at="2018-09-09T12:14:26Z" finished-at="2018-09-09T12:14:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- testscripts.Test1 -->
-    </test> <!-- chromeTest -->
-    <test name="firefoxTest" duration-ms="76707" started-at="2018-09-04T11:53:26Z" finished-at="2018-09-04T11:54:43Z">
-      <class name="testscripts.Test2">
-        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:testscripts.Test2@41eaa2]" name="before" is-config="true" duration-ms="15637" started-at="2018-09-04T11:53:59Z" finished-at="2018-09-04T11:54:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="test()[pri:0, instance:testscripts.Test2@41eaa2]" name="test" duration-ms="6803" started-at="2018-09-04T11:54:15Z" finished-at="2018-09-04T11:54:21Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Total no of links are:50]]>
-            </line>
-            <line>
-              <![CDATA[Title is matching]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testscripts.Test2@41eaa2]" name="close" is-config="true" duration-ms="2952" started-at="2018-09-04T11:54:21Z" finished-at="2018-09-04T11:54:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- testscripts.Test2 -->
-      <class name="testscripts.Test3">
-        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:testscripts.Test3@d62f43]" name="before" is-config="true" duration-ms="11913" started-at="2018-09-04T11:54:24Z" finished-at="2018-09-04T11:54:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="test()[pri:0, instance:testscripts.Test3@d62f43]" name="test" duration-ms="4409" started-at="2018-09-04T11:54:36Z" finished-at="2018-09-04T11:54:41Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Total no of links are:50]]>
-            </line>
-            <line>
-              <![CDATA[Title is matching]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testscripts.Test3@d62f43]" name="close" is-config="true" duration-ms="2010" started-at="2018-09-04T11:54:41Z" finished-at="2018-09-04T11:54:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- testscripts.Test3 -->
-      <class name="testscripts.Test1">
-        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:testscripts.Test1@5cb137]" name="before" is-config="true" duration-ms="20109" started-at="2018-09-04T11:53:26Z" finished-at="2018-09-04T11:53:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="test()[pri:0, instance:testscripts.Test1@5cb137]" name="test" duration-ms="6657" started-at="2018-09-04T11:53:46Z" finished-at="2018-09-04T11:53:53Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Total no of links are:50]]>
-            </line>
-            <line>
-              <![CDATA[Title is matching]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testscripts.Test1@5cb137]" name="close" is-config="true" duration-ms="6145" started-at="2018-09-04T11:53:53Z" finished-at="2018-09-04T11:53:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- testscripts.Test1 -->
-    </test> <!-- firefoxTest -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
