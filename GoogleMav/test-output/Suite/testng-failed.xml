@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
-  <test thread-count="10" name="firefoxTest(failed)" parallel="tests">
+<suite thread-count="6" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="6" name="firefoxTest(failed)" parallel="tests">
     <parameter name="myBrowser" value="firefox"/>
     <classes>
-      <class name="testscripts.Test3">
-        <methods>
-          <include name="before"/>
-          <include name="test"/>
-          <include name="close"/>
-        </methods>
-      </class> <!-- testscripts.Test3 -->
       <class name="testscripts.Test1">
         <methods>
           <include name="before"/>
@@ -18,13 +11,6 @@
           <include name="test"/>
         </methods>
       </class> <!-- testscripts.Test1 -->
-      <class name="testscripts.Test2">
-        <methods>
-          <include name="before"/>
-          <include name="test"/>
-          <include name="close"/>
-        </methods>
-      </class> <!-- testscripts.Test2 -->
     </classes>
   </test> <!-- firefoxTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
